@@ -1093,14 +1093,6 @@ vendors:
   quicklink:
 
   # Internal version: 1.0.0
-  # See: https://github.com/revir/need-more-share2
-  # Example:
-  # needmoreshare2_js: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js
-  # needmoreshare2_css: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css
-  needmoreshare2_js:
-  needmoreshare2_css:
-
-  # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-bookmark
   # Example:
   # bookmark: //cdn.jsdelivr.net/gh/theme-next/theme-next-bookmark@1/bookmark.min.js
@@ -1111,6 +1103,14 @@ vendors:
   # Example:
   # reading_progress: //cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1/reading_progress.min.js
   reading_progress:
+
+  # DisqusJS
+  # See: https://github.com/SukkaW/DisqusJS
+  # Example:
+  # disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  # disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  disqusjs_js:
+  disqusjs_css:
 
   # valine
   # See: https://github.com/xCss/Valine
@@ -1137,13 +1137,13 @@ vendors:
   likely_js:
   likely_css:
 
-  # DisqusJS
-  # See: https://github.com/SukkaW/DisqusJS
+  # Internal version: 1.0.0
+  # See: https://github.com/revir/need-more-share2
   # Example:
-  # disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  # disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
-  disqusjs_js:
-  disqusjs_css:
+  # needmoreshare2_js: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js
+  # needmoreshare2_css: //cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css
+  needmoreshare2_js:
+  needmoreshare2_css:
 
   # Internal version: 2.10.4
   # See: https://www.algolia.com
