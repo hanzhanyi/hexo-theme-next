@@ -9,6 +9,13 @@
 {% set js_vendors = {} %}
 {% set js_vendors.jquery = 'jquery/index.js?v=3.4.1' %}
 
+{% set js_vendors.velocity = 'velocity/velocity.min.js?v=1.2.1' %}
+{% set js_vendors.velocity_ui = 'velocity/velocity.ui.min.js?v=1.2.1' %}
+
+{% if theme.fancybox %}
+  {% set js_vendors.fancybox = 'fancybox/source/jquery.fancybox.pack.js' %}
+{% endif %}
+
 {% if theme.fastclick %}
   {% set js_vendors.fastclick = 'fastclick/lib/fastclick.min.js?v=1.0.6' %}
 {% endif %}
@@ -17,11 +24,8 @@
   {% set js_vendors.lazyload = 'jquery_lazyload/jquery.lazyload.js?v=1.9.7' %}
 {% endif %}
 
-{% set js_vendors.velocity = 'velocity/velocity.min.js?v=1.2.1' %}
-{% set js_vendors.velocity_ui = 'velocity/velocity.ui.min.js?v=1.2.1' %}
-
-{% if theme.fancybox %}
-  {% set js_vendors.fancybox = 'fancybox/source/jquery.fancybox.pack.js' %}
+{% if theme.reading_progress.enable %}
+  {% set js_vendors.reading_progress = 'reading_progress/reading_progress.js' %}
 {% endif %}
 
 {% if theme.canvas_nest.enable %}
@@ -60,10 +64,6 @@
     {% set canvas_ribbon_uri = theme.vendors.canvas_ribbon %}
   {% endif %}
   <script id="ribbon" size="{{ theme.canvas_ribbon.size }}" alpha="{{ theme.canvas_ribbon.alpha }}" zIndex="{{theme.canvas_ribbon.zIndex }}" src="{{ canvas_ribbon_uri }}"></script>
-{% endif %}
-
-{% if theme.reading_progress.enable %}
-  {% set js_vendors.reading_progress = 'reading_progress/reading_progress.js' %}
 {% endif %}
 
 {% for name, internal in js_vendors %}
