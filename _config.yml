@@ -533,6 +533,20 @@ math:
 # For more information: https://github.com/vinta/pangu.js
 pangu: false
 
+# Fancybox. There is support for old version 2 and new version 3.
+# Choose only one variant, do not need to install both.
+# To install 2.x: https://github.com/theme-next/theme-next-fancybox
+# To install 3.x: https://github.com/theme-next/theme-next-fancybox3
+fancybox: false
+
+# Polyfill to remove click delays on browsers with touch UIs.
+# Dependencies: https://github.com/theme-next/theme-next-fastclick
+fastclick: false
+
+# Vanilla JavaScript plugin for lazyloading images.
+# Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
+lazyload: false
+
 # Quicklink Support
 # Dependencies: https://github.com/theme-next/theme-next-quicklink
 # Visit https://github.com/GoogleChromeLabs/quicklink for details
@@ -964,20 +978,6 @@ motion:
     coll_header: slideLeftIn
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
-
-# Fancybox. There is support for old version 2 and new version 3.
-# Choose only one variant, do not need to install both.
-# To install 2.x: https://github.com/theme-next/theme-next-fancybox
-# To install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false
-
-# Polyfill to remove click delays on browsers with touch UIs.
-# Dependencies: https://github.com/theme-next/theme-next-fastclick
-fastclick: false
-
-# Vanilla JavaScript plugin for lazyloading images.
-# Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
-lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
